@@ -9,7 +9,7 @@ bool g_bPlayerIsTagged[MAXPLAYERS+1];
 
 public Plugin myinfo =
 {
-	name = "Advanced Tatical Grenades",
+	name = "Advanced Tactical Grenades",
 	author = "Neuro Toxin",
 	description = "Gives Tatical Grenades a few more settings",
 	version = "0.0.1",
