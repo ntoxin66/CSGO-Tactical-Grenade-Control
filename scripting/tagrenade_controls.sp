@@ -19,7 +19,7 @@ public Plugin myinfo =
 public void OnPluginStart()
 {
 	HookEvent("tagrenade_detonate", OnTagrenadeDetonate);
-	cvar_tagrenade_range = CreateConVar("tagrenade_range", "700", "Sets the proxity in which the tatical grenade will tag an oponent.");
+	cvar_tagrenade_range = CreateConVar("tagrenade_range", "700.0", "Sets the proximity in which the tactical grenade will tag an opponent.");
 	cvar_tagrenade_time = CreateConVar("tagrenade_time", "5.0", "How long a player is tagged for in seconds.");
 }
 
