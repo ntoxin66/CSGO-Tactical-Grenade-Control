@@ -7,6 +7,15 @@ ConVar cvar_tagrenade_range;
 ConVar cvar_tagrenade_time;
 bool g_bPlayerIsTagged[MAXPLAYERS+1];
 
+public Plugin myinfo =
+{
+	name = "Advanced Tatical Grenades",
+	author = "Neuro Toxin",
+	description = "Gives Tatical Grenades a few more settings",
+	version = "0.0.1",
+	url = ""
+}
+
 public void OnPluginStart()
 {
 	HookEvent("tagrenade_detonate", OnTagrenadeDetonate);
