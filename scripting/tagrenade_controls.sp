@@ -12,8 +12,8 @@ public Plugin myinfo =
 	name = "Advanced Tactical Grenades",
 	author = "Neuro Toxin",
 	description = "Gives Tatical Grenades a few more settings",
-	version = "0.0.1",
-	url = ""
+	version = "0.0.2",
+	url = "https://forums.alliedmods.net/showthread.php?p=2396249#post2396249"
 }
 
 public void OnPluginStart()
